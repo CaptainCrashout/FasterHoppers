@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "fasterhoppers",
+  "version": "${version}",
+  "name": "Faster Hoppers",
+  "description": "A vanilla-style hopper upgrade. Craft a Super Hopper to transfer items eight times faster; normal hoppers are unchanged.",
+  "icon": "assets/fasterhoppers/icon.png",
+  "authors": ["1mythgecko"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.fasterhoppers.FasterHoppers"]
+  },
+  "mixins": ["fasterhoppers.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
